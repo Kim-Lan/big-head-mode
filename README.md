@@ -1,3 +1,3 @@
 # Big Head Mode - Minecraft Fabric mod
 
-Client-side mod to increase the size of player heads. Compatible with Mod Menu.
+Client-side mod to increase the size of player heads. Configure head scale by editing the config file `big-head-mode.json5` or using Mod Menu.
