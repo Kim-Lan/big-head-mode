@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "com.kimlan.bigheadmode.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"mixins": [
+		"ModelMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

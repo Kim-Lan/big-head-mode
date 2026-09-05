@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "big-head-mode",
+	"version": "${version}",
+	"name": "Big Head Mode",
+	"description": "Client-side mod to increase the size of player heads.",
+	"authors": [
+		"Kim-Lan"
+	],
+	"contact": {
+		"homepage": "https://github.com/Kim-Lan",
+		"sources": "https://github.com/Kim-Lan/big-head-mode",
+		"issues": "https://github.com/Kim-Lan/big-head-mode/issues"
+	},
+	"license": "ARR",
+	"icon": "assets/big-head-mode/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"main": [
+			"com.kimlan.bigheadmode.BigHeadMode"
+		]
+	},
+	"mixins": [
+		"big-head-mode.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": "~26.1",
+		"java": ">=25",
+		"fabric-api": "*",
+		"owo-lib": "~0.13.1"
+	}
+}
